@@ -1,4 +1,4 @@
-import { GetCostumerPhoneUseCase } from "../../application/costumer/getCostumerPhone"
+import { GetCostumerPhoneUseCase } from "../../application/costumer/getCostumerPhoneUseCase"
 import { ICostumerRepository } from "../../domain/usecases/CostumerRepository"
 import { NotFoundError } from "../../errors/notFoundError"
 import { HttpRequest } from "../../http/httpRequest"
