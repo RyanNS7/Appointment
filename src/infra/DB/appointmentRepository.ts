@@ -22,7 +22,7 @@ export class AppointmentRepository implements IAppointmentRepository{
         return await UnMarkAppointmentInDB(appointmentID)
     }
 
-    async isValidDate(date: Date): Promise<Boolean | InvalidDateError> {
+    async isValidDate(date: Date): Promise<Boolean | InvalidDateError > {
         return await isValidDate(date)
     }
 }
